@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Post</title>
+  <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="post-container">
+      <h1>Create Post</h1>
+      <form id="post-form">
+        <input type="file" name="image" accept="image/*" required>
+        <input type="text" name="title" placeholder="Title" required>
+        <textarea name="description" placeholder="Description" required></textarea>
+        <input type="text" name="topic" placeholder="Topic" required>
+        <button type="submit">Post</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="js/post.js"></script>
+</body>
+</html>
